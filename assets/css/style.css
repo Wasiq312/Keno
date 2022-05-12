@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Header Start */
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+#header {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.logo img {
+    width: 115px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1000 !important;
+    padding: 4px 10px;
+}
+
+.navigation ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.btn {
+    padding: 6px 17px;
+    background: #000000 0% 0% no-repeat padding-box;
+    color: white;
+    border-radius: 5px;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1 {
+    margin: 40px 0px;
+    width: 40.5%;
+    padding: 5px 10px;
+}
+
+.section1 h1 {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 1.2px;
+}
+
+.section1 p {
+    font-size: 15px;
+    padding: 15px 0px;
+}
+
+.ins-img {
+    width: 20px;
+}
+
+.rat-img {
+    padding: 15px 0px;
+}
+
+.rat-img img {
+    width: 105px;
+}
+
+.section2 {
+    top: -299.151123046875px;
+    left: 747px;
+    width: 55.5%;
+    margin: 40px 0px;
+    padding: 5px 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.img img {
+    width: 710px;
+}
+
+.saf-pic {
+    position: absolute;
+    left: 273px;
+    top: 45%;
+    transform: translateY(-45%);
+}
+
+.saf-pic {
+    width: 450px;
+}
+
+.saf-pic img {
+    width: 100%;
+}
+
+.last-pic {
+    position: absolute;
+    width: 520px;
+    top: 265px;
+    left: -65px;
+}
+
+.last-pic img {
+    width: 100%;
+}
+
+#menu {
+    display: none;
+}
+
+
+/* Header End */
+
+section {
+    width: 100%;
+}
+
+#brands {
+    width: 85%;
+    margin: auto;
+    padding: 10px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#brands h2 {
+    color: #7C828D;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: 10px 0px 15px 0px;
+}
+
+#brands img {
+    margin-left: 90px;
+    width: 65px;
+}
+
+.brand-img {
+    padding: 10px 0;
+}
+
+
+/* ahead Section */
+
+#ahead-section {
+    width: 85%;
+    margin: auto;
+    background: #EDFAFE 0% 0% no-repeat padding-box;
+    border-radius: 60px;
+    opacity: 1;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+.ahead-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1 {
+    width: 40%;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.text {
+    width: 60%;
+    padding: 0px 50px;
+}
+
+.text h2 {
+    font-size: 27px;
+}
+
+.secondary {
+    padding: 20px 0px;
+    font-weight: 500;
+}
+
+.para {
+    font-size: 15px;
+}
+
+.text .btn {
+    margin: 20px 0px 0px 0px;
+}
+
+.active {
+    display: none;
+}
+
+
+/* ahead Section End */
+
+
+/* Future Section Start */
+
+#future-section {
+    width: 100%;
+    background: #FFE8F2 0% 0% no-repeat padding-box;
+    padding: 40px 0px;
+    margin: 20px 0px;
+    background-image: url('../images/Mask\ Group\ 221.png');
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.future-box {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.sec-1 {
+    width: 20%;
+    margin-left: 2px;
+    padding-right: 20px;
+}
+
+.sec-1 h3 {
+    font-size: 25px;
+    color: rgb(90, 90, 90);
+}
+
+.sec-1::before {
+    content: "";
+    background-color: rgb(90, 90, 90);
+    height: 12%;
+    width: 2px;
+    float: right;
+}
+
+.sec-2 {
+    width: 40%;
+    margin-left: 2px;
+}
+
+.sec-2 h2 {
+    padding: 20px 0px;
+    font-size: 29px;
+}
+
+.sec-2 h2::after {
+    content: '';
+    width: 40%;
+    background-color: rgb(255, 123, 0);
+    height: 2px;
+    display: block;
+    margin: 10px 0px;
+}
+
+.sec-3 {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.img3 img {
+    width: 100%;
+    height: 450px;
+}
+
+.sec-2 .btn {
+    margin: 20px 0px;
+}
+
+
+/* Future Section End */
+
+
+/* Message Section Start*/
+
+#message-section {
+    width: 100%;
+    background-image: url('../images/Mask\ Group\ 221.png');
+    background-position: center center;
+    background-repeat: repeat;
+    padding: 20px 0px;
+}
+
+.message-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+.img4 {
+    position: absolute;
+    z-index: 100;
+    margin-left: -5px;
+}
+
+.img4 img {
+    width: 380px;
+}
+
+.text-message {
+    background: #EFFAF7 0% 0% no-repeat padding-box;
+    border-radius: 60px;
+    opacity: 1;
+    width: 820px;
+    padding: 60px;
+    left: 300px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.text-message img {
+    width: 100px;
+}
+
+.text-message p {
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.text-message h3 {
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.direction-pic {
+    float: right;
+}
+
+.direction-pic img {
+    width: 32px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+/* Message Section End*/
+
+
+/* Success Section */
+
+#success {
+    width: 100%;
+    background-color: #EFFAF7;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.success-box {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/Mask\ Group\ 221.png');
+    background-repeat: no-repeat;
+    background-position: 650px 0px;
+}
+
+.success-1 {
+    width: 50%;
+}
+
+.success-1 h3 {
+    font-size: 25px;
+    padding: 20px 0px 5px 0px;
+}
+
+.success-1 h4 {
+    font-size: 15px;
+    padding: 2px 0px;
+}
+
+.success-1 p {
+    font-size: 15px;
+    padding: 12px 0px;
+}
+
+.success-1 .btn {
+    margin: 20px 0px;
+}
+
+.success-2 {
+    width: 35%;
+}
+
+.success-2 img {
+    width: 100%;
+}
+
+
+/* Success Section End */
+
+
+/* Benifits Section */
+
+#benifits {
+    width: 100%;
+    background-color: #F8F7FE;
+    margin: 20px auto;
+    padding: 50px 0px;
+    border-radius: 62px;
+}
+
+.benifits-box {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/Mask\ Group\ 221.png');
+    background-repeat: no-repeat;
+    background-position: 650px 0px;
+}
+
+.benifits-1 {
+    width: 50%;
+}
+
+.benifits-1 h3 {
+    font-size: 25px;
+    padding: 20px 0px 5px 0px;
+}
+
+.benifits-1 h4 {
+    font-size: 15px;
+    padding: 2px 0px;
+}
+
+.benifits-1 p {
+    font-size: 15px;
+    padding: 20px 0px;
+}
+
+.benifits-1 .btn {
+    margin: 20px 0px;
+}
+
+.benifits-2 {
+    width: 35%;
+}
+
+.benifits-2 img {
+    width: 100%;
+}
+
+
+/* Benifits Section End */
+
+
+/* achieve-section Start */
+
+#achieve-section {
+    width: 85%;
+    background-color: #EDFAFE;
+    padding: 30px 0px;
+    margin: auto;
+    border-radius: 62px;
+}
+
+.achieve-box {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside-1 {
+    width: 40%;
+    margin-left: 60px;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50% 50%;
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    transition: 0.6s;
+    box-shadow: 0 0 5px rgb(0, 0, 0, .5);
+}
+
+.circle:hover {
+    margin-top: 10px;
+}
+
+.aside-1 h2 {
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    border-radius: 3px 100px 0px 0px;
+    left: 140px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.aside-2 {
+    width: 50%;
+}
+
+.aside-2 h2 {
+    padding: 15px 0px;
+}
+
+.aside-2 h4 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.aside-2 p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.aside-2 .btn {
+    margin: 20px 0px;
+}
+
+
+/* achieve-section End*/
+
+
+/* Keno Section Start */
+
+#keno {
+    width: 85%;
+    padding: 20px 10px;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#keno h2 {
+    color: black;
+}
+
+#save-time {
+    width: 85%;
+    margin: 40px auto;
+    background-image: url('../images/Mask\ Group\ 221.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.img-sec {
+    width: 60%;
+    margin-left: -60px;
+}
+
+.img-sec img {
+    width: 100%;
+}
+
+.design1 {
+    z-index: -90;
+    left: 48px;
+    width: 208px;
+    height: 408px;
+    transform: matrix(0.96, -0.29, 0.29, 0.96, 0, 0);
+    background: transparent linear-gradient(180deg, #A1E4F8 0%, #09BBF1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 13px 46px #00000029;
+    border-radius: 150px;
+    opacity: 1;
+    position: absolute;
+}
+
+.design2 {
+    z-index: -90;
+    left: 190px;
+    width: 208px;
+    height: 408px;
+    transform: matrix(0.96, -0.29, 0.29, 0.96, 0, 0);
+    background: transparent linear-gradient(180deg, #A1E4F8 0%, #09BBF1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 13px 46px #00000029;
+    border-radius: 150px;
+    opacity: 1;
+    position: absolute;
+}
+
+.design3 {
+    z-index: -90;
+    left: 350px;
+    width: 208px;
+    height: 408px;
+    transform: matrix(0.96, -0.29, 0.29, 0.96, 0, 0);
+    background: transparent linear-gradient(180deg, #A1E4F8 0%, #09BBF1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 13px 46px #00000029;
+    border-radius: 150px;
+    opacity: 1;
+    position: absolute;
+}
+
+.save-text {
+    width: 40%;
+}
+
+.save-text h2 {
+    padding: 15px 0px;
+}
+
+.save-text p {
+    padding: 5px 0px 10px 0px;
+}
+
+.save-text .btn {
+    margin: 20px 0;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+/* Product Section */
+
+#product-sec {
+    background-color: #EFFAF7;
+    width: 85%;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 30px 0px;
+}
+
+.product-box {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.text-p {
+    width: 40%;
+}
+
+.text-p h5 {
+    padding-bottom: 20px;
+    padding-top: 3px;
+    color: #00B984;
+}
+
+.text-p h3 {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 23px;
+}
+
+.text-p p {
+    padding-bottom: 20px;
+    padding-top: 1px;
+    font-size: 15px;
+}
+
+.text-p li span {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.text-p li span:hover {
+    color: white;
+    background-color: #09BBF1;
+}
+
+.text-p ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 14px;
+}
+
+.img-p {
+    width: 38%;
+    margin-top: 200px;
+}
+
+.img-p img {
+    width: 350px;
+}
+
+.apply {
+    width: 100%;
+    background-color: #EBF8F3;
+    text-align: center;
+    padding: 10px;
+    border-radius: 18px 18px 0px 0px;
+}
+
+
+/* Product Section End*/
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+#footer {
+    width: 85%;
+    margin: auto;
+    color: white;
+    padding: 30px 0px;
+    display: flex;
+}
+
+.one {
+    width: 20%;
+}
+
+#footer h5 {
+    padding: 12px 0px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#footer ul li {
+    padding: 4px 0px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.promotion h6 {
+    font-size: 14px;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+.promotion {
+    width: 20%;
+    margin-top: 40px;
+}
+
+.promotion img {
+    width: 150px;
+}
